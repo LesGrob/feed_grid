@@ -1,0 +1,53 @@
+name: feed_grid
+description: "A new Flutter project."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter    
+
+  get_it: 7.6.0
+  mobx: 2.2.0
+  flutter_mobx: 2.2.0+2
+  async: 2.11.0
+  collection: 1.18.0
+  
+dev_dependencies:
+  integration_test:
+    sdk: flutter
+  flutter_test:
+    sdk: flutter
+  flutter_lints: 2.0.3
+  build_runner: 2.4.8
+  mobx_codegen: 2.4.0
+  dart_code_metrics: 5.7.6
+
+flutter:
+  generate: true
+  uses-material-design: true
+  assets:
+    - assets/
+  fonts:
+      - family: SFUIText
+        fonts:
+          - asset: assets/fonts/SFUIText-Bold.ttf
+            weight: 700
+          - asset: assets/fonts/SFUIText-Heavy.ttf
+            weight: 800
+          - asset: assets/fonts/SFUIText-Semibold.ttf
+            weight: 600
+          - asset: assets/fonts/SFUIText-Medium.ttf
+            weight: 500
+          - asset: assets/fonts/SFUIText-Regular.ttf
+            weight: 400
+            style: normal
+          - asset: assets/fonts/SFUIText-Light.ttf
+            weight: 300
+          - asset: assets/fonts/SFUIText-UltraLight.ttf
+            weight: 200

@@ -1,0 +1,25 @@
+{
+    "version": "0.1.0",
+    "configurations": [
+        {
+            "name": "feed_grid",
+            "program": "lib/main.dart",
+            "request": "launch",
+            "type": "dart",
+        },
+        {
+            "name": "feed_grid (profile mode)",
+            "program": "lib/main.dart",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+        },
+        {
+            "name": "feed_grid (release mode)",
+            "program": "lib/main.dart",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+        }
+    ]
+}
